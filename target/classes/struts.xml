@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.enable.DynamicMethodInvocation"
+              value="false"/>
+
+    <constant name="struts.custom.i18n.resources" value="mesTextes"/>
+
+    <bean class="modele.Facade"
+          type="modele.Facade"
+          scope="singleton"
+          name="facade"/>
+
+
+    <package name="default" namespace="/" extends="struts-default">
+        <default-action-ref name="home"></default-action-ref>
+
+        <action name="home">
+            <result>/WEB-INF/pages/home.jsp</result>
+        </action>
+
+        <action name="gotoinscription">
+            <result>/WEB-INF/pages/inscription.jsp</result>
+        </action>
+
+        <action name="gotoconnexion">
+            <result>/WEB-INF/pages/connexion.jsp</result>
+        </action>
+
+        <action name="jeu">
+            <result name="success">/WEB-INF/pages/jouer.jsp</result>
+        </action>
+
+        <action name="deconnexion" class="actions.Deconnexion">
+            <result name="success">/WEB-INF/pages/home.jsp</result>
+        </action>
+
+        <action name="rejouer" class="actions.Rejouer">
+            <result name="success">/WEB-INF/pages/jouer.jsp</result>
+        </action>
+
+        <action name="pileOuFace" class="actions.PileOuFace">
+            <result name="success">/WEB-INF/pages/resultat.jsp</result>
+        </action>
+
+        <action name="inscription" class="actions.Inscription">
+            <result name="success">/WEB-INF/pages/connexion.jsp</result>
+            <result name="input">/WEB-INF/pages/inscription.jsp</result>
+        </action>
+
+        <action name="connexion" class="actions.Connexion">
+            <result name="success">/WEB-INF/pages/jouer.jsp</result>
+            <result name="input">/WEB-INF/pages/connexion.jsp</result>
+        </action>
+    </package>
+</struts>

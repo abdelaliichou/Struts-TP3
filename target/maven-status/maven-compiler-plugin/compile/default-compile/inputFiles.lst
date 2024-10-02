@@ -1,0 +1,13 @@
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/actions/PileOuFace.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/modele/Partie.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/modele/Joueur.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/modele/Facade.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/actions/Deconnexion.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/modele/PseudoDejaPrisException.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/actions/Inscription.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/modele/MauvaisMotDePasseException.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/actions/Rejouer.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/modele/JoueurInexistantException.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/modele/JoueurDejaConnecteException.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/modele/MauvaisIdentifiantConnexionException.java
+/home/abdelali/Desktop/PNT/struts/TP1/pileoufaceonlinefullstruts/src/main/java/actions/Connexion.java
